@@ -12,3 +12,6 @@
    * nombre
    * probabilidad_siniestro (número en $\mathbb R$ entre 0 y 1)
  - Se tiene un método que compara el salario del asegurado y el pago del seguro para saber si podrá pagar la prima del seguro.
+
+## Clase Aseguradora:
+- Esta clase consiste en un arreglo de Asegurados en donde el usuario ingresará los datos de cada Asegurado.
