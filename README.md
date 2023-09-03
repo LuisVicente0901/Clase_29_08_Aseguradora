@@ -1,4 +1,6 @@
 # Creación de una aseguradora con el fin de practicar los conocimientos de:
+- Programación en Java.
+  * Estructuras de ciclos y condicionales (`for`,`if/else`)
 - Creación de una clase.
   * Declaración de parámetros.
   * Constructores y métodos.
