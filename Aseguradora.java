@@ -1,10 +1,17 @@
-
 import java.util.Scanner;
-public class Aseguradora
-{
-    Asegurado[] asegurados = new Asegurado[2];
+
+public class Aseguradora{
+    
+    Asegurado[] asegurados ;
+    
+    
     
     public Aseguradora(){
+        
+        Scanner numero = new Scanner(System.in);
+        System.out.println("¿Cuántos asegurados tendra la aseguradora?");
+        int numero_asegurados = numero.nextInt();
+        asegurados = new Asegurado[numero_asegurados];
         
 
         for(int i=0;i<asegurados.length;i++){
@@ -37,4 +44,14 @@ public class Aseguradora
         
         
     }
+    
+    public Aseguradora(int edad, double salario, double suma_asegurada, 
+    double pago_seguro, String nombre, double probabilidad_siniestro){
+        for(int i=0;i<asegurados.length;i++){
+            asegurados[i]=new Asegurado(edad, salario, suma_asegurada, 
+            pago_seguro,nombre,probabilidad_siniestro);
+        }
+    }   
+    
+    
 }

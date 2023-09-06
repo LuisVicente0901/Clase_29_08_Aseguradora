@@ -2,4 +2,6 @@
 comment0.target=Aseguradora
 comment1.params=
 comment1.target=Aseguradora()
-numComments=2
+comment2.params=edad\ salario\ suma_asegurada\ pago_seguro\ nombre\ probabilidad_siniestro
+comment2.target=Aseguradora(int,\ double,\ double,\ double,\ java.lang.String,\ double)
+numComments=3
