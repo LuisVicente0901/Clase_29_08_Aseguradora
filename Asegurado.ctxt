@@ -1,9 +1,9 @@
 #BlueJ class context
 comment0.target=Asegurado
-comment1.params=
-comment1.target=Asegurado()
-comment2.params=edad\ salario\ suma_asegurada\ pago_seguro\ nombre\ probabilidad_siniestro
-comment2.target=Asegurado(int,\ double,\ double,\ double,\ java.lang.String,\ double)
+comment1.params=edad\ salario\ suma_asegurada\ pago_seguro\ nombre\ probabilidad_siniestro
+comment1.target=Asegurado(int,\ double,\ double,\ double,\ java.lang.String,\ double)
+comment2.params=
+comment2.target=Asegurado()
 comment3.params=
 comment3.target=boolean\ si_pagara()
 numComments=4
